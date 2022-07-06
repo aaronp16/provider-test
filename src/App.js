@@ -1,10 +1,10 @@
+import Component1 from "./components/Component1";
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      
+      <h1>Provider Store Test</h1>
+      <Component1 />
     </div>
   );
 }
